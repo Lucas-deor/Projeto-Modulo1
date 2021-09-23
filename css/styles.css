@@ -1,0 +1,299 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Ubuntu:wght@300;400;500&display=swap');
+
+#title {
+    background-color: #39A2DB;
+    color: #fff;
+    padding-left: 15%;
+    padding-right: 15%; 
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+}
+
+.navbar-expand-lg{
+    padding-left: 0px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-light a:any-link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-light a:visited{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-light a:hover{
+    text-decoration: none;
+    opacity: 1.0;
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff !important;
+    /* para ajustar ainda */
+}
+
+.nav-item {
+    padding-right: 60px !important;
+    font-family: 'EB Garamond', serif;
+    font-size: 1rem;
+    opacity: 0.7;
+}
+
+.download-link {
+    padding-right: 0px !important;
+}
+
+.initial {
+    display: flex;
+}
+
+.animal-icon {
+    display: inline-block;
+    padding-right: 300px;
+    padding-top: 80px;
+}
+
+.title-components {
+    display: inline-block;
+    padding-right: 300px;
+    padding-bottom: 100px;
+}
+
+h1 {
+    line-height: 1.5;
+    margin-bottom: 32px;
+    font-family: 'EB Garamond', serif;
+    font-size: 4rem;
+}
+
+
+.btn {
+    padding: 4px 12px 4px 12px;
+    margin-right: 8px;
+}
+
+.fab {
+    padding-right: 5px;
+}
+
+#features {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 15% 100px 15%;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.feature-text {
+    color: #7F7C82;
+    
+}
+
+.feature-one {
+    padding-right: 125px;
+}
+
+.fa-check-circle {
+    color:#93B5C6;
+    padding-bottom: 10px;
+}
+
+.feature-two {
+    padding: 0 125px;
+}
+
+.fa-dot-circle {
+    color: #93B5C6;
+    padding-bottom: 10px;
+}
+
+.feature-three {
+    padding-left: 125px;
+}
+
+.fa-heart {
+    color: #93B5C6;
+    padding-bottom: 10px;
+}
+
+#testimonials {
+    background-color: #93B5C6;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.testimonial-first-image {
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+}
+
+.carousel-item {
+    color: #fff;
+}
+
+.testemonial-text {
+    padding-bottom: 30px;
+    font-family: 'EB Garamond', serif;
+}
+
+em {
+    padding-left: 20px;
+}
+
+#press {
+    display: flex;
+    justify-content: space-around;
+    background-color: #93B5C6;
+    padding: 60px 15% 80px 15%;
+}
+
+.press-one {
+    height: 30px;
+}
+
+.press-two {
+    width: 120px;
+}
+
+.press-three {
+    height: 35px;
+    width: 200px;
+}
+
+.press-four {
+    height: 35px;
+    width: 200px;
+}  
+
+#pricing {
+    padding: 80px 10% 100px 10%;
+    text-align: center;
+}
+
+.all-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 400px;
+}
+
+.card-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pricing-intro {
+    font-family: 'EB Garamond', serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.pricing-text {
+    color: #7F7C82;
+    margin-bottom: 40px;
+}
+
+h5 {
+    font-family: 'EB Garamond', serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #7F7C82;
+}
+
+.btn-outline-dark {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#cta {
+    background-color: #39A2DB;
+    padding: 100px 15% 100px 15%;
+    text-align: center;
+}
+
+.cta-text {
+    padding-bottom: 30px;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+#footer {
+    padding: 100px 15% 100px 15%;
+    text-align: center;
+}
+
+.social-media {
+    padding-bottom: 20px;
+}
+
+.social-media a:any-link {
+    text-decoration: none;
+    color: #212529;
+}
+
+.social-media a:visited {
+    text-decoration: none;
+    color: #212529;
+}
+
+.facebook-class {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.twitter-class {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.instagram-class {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.email-class {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.footer-text {
+    color: #7F7C82;
+    font-size: 0.85rem;
+}
